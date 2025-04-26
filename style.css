@@ -1,38 +1,90 @@
-*{
-  margin: 0px;
-  padding: 0px;
-  font-family: Lato;
-}
-header{
-  background-color: rgba(123, 3, 35, 1)
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  min-height: 100px;
-}
-ul{
-  float: right;
-  list-style-type: none;
-  margin-top: 30px;
-  min-height: 400px;
-  margin-right:60px;
-  font-size: 17px;
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', cursive, sans-serif;
 }
 
-ul li a{
+/* Navbar */
+.navbar {
+  width: 100%;
+  background-color: #f2d2d2; /* soft pastel pink */
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.nav-links li a {
   text-decoration: none;
-  color: #fff;
-  padding: 5px 20 px;
-  border: 1px solid transparent;
-  transition: 0.5 ease;
+  color: #7b0323; /* dusty rose text */
+  font-size: 18px;
+  transition: color 0.3s ease;
 }
 
-ul li a:hover{
-  background-color: #fff
-  color: #000
+.nav-links li a:hover {
+  color: #ff7b7b; /* lighter pink on hover */
 }
 
-ul li.active a{
-  background-color: #fff;
-  color: #000
+/* Home Section */
+.home-section {
+  background-color: #f7e2e2; /* lighter pastel pink */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.intro-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #7b0323; /* dusty rose */
+}
+
+.intro-text p {
+  font-size: 20px;
+  max-width: 600px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+  background-color: #7b0323; /* dusty rose footer */
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #f7e2e2; /* pastel hover */
 }
