@@ -58,31 +58,17 @@ body {
 
 /* Home Section */
 .home-section {
-  background-image: url('https://www.excite.co.jp/comic/wp-content/uploads/2023/11/5_4-1024x573.jpeg');
-  background-color: #D58A94; /* Fallback color */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-color: #D58A94; /* Background color for empty space */
   color: white;
-  
   width: 100%;
   min-height: 100vh;
-  
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-
-  position: relative; /* NEW: needed for inner control */
-  overflow: hidden; /* hide overflow */
+  position: relative;
+  overflow: hidden;
 }
-.home-section h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4); /* Helps text stand out */
-}
-
 /* About Section */
 .about {
   background-color: white;
