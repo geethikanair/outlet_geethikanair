@@ -58,7 +58,11 @@ body {
 
 /* Home Section */
 .home-section {
-  background-color: #D58A94; /* Dusty Rose */
+  background-image: url('https://ih1.redbubble.net/image.665502912.2165/pp,504x498-pad,600x600,f8f8f8.u8.jpg');
+  background-color: #D58A94; /* Fallback color */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
   min-height: 80vh;
   display: flex;
@@ -68,8 +72,9 @@ body {
 }
 
 .home-section h1 {
-  font-family: 'Playfair Display', serif; /* (Zefani substitute) */
+  font-family: 'Playfair Display', serif;
   font-size: 60px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4); /* Soft shadow for readability */
 }
 
 /* About Section */
@@ -86,7 +91,7 @@ body {
   line-height: 1.6;
 }
 
-/* Footer */
+/* Footer / Socials */
 .socials {
   background-color: #D58A94; /* Dusty Rose */
   color: white;
@@ -114,7 +119,7 @@ body {
   border: 2px solid white;
   padding: 10px 20px;
   border-radius: 30px;
-  transition: 0.3s;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .social-links a:hover {
