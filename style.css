@@ -128,3 +128,9 @@ body {
   background-color: white;
   color: #D58A94;
 }
+.welcome-text {
+  background-color: #D58A94; /* Dusty Rose */
+  padding: 30px 50px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* optional for a soft shadow */
+}
