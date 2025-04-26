@@ -13,7 +13,7 @@ body {
 
 /* Navbar */
 .navbar {
-  background-color: #7f081f; /* Royal Red */
+  background-color: #D58A94; /* Dusty Rose */
   padding: 20px 40px;
   display: flex;
   align-items: center;
@@ -53,12 +53,12 @@ body {
 
 .nav-links li a:hover {
   background-color: white;
-  color: #7f081f;
+  color: #D58A94;
 }
 
 /* Home Section */
 .home-section {
-  background-color: #7f081f; /* Royal Red */
+  background-color: #D58A94; /* Dusty Rose */
   color: white;
   min-height: 80vh;
   display: flex;
@@ -88,7 +88,7 @@ body {
 
 /* Footer */
 .socials {
-  background-color: #7f081f;
+  background-color: #D58A94; /* Dusty Rose */
   color: white;
   text-align: center;
   padding: 40px 20px;
@@ -119,5 +119,5 @@ body {
 
 .social-links a:hover {
   background-color: white;
-  color: #7f081f;
+  color: #D58A94;
 }
