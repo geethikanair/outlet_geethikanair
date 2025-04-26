@@ -63,16 +63,20 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; /* Optional: background stays in place while scrolling */
+  background-attachment: fixed; 
   color: white;
+  
   width: 100%;
   min-height: 100vh;
+  
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-}
 
+  position: relative; /* NEW: needed for inner control */
+  overflow: hidden; /* hide overflow */
+}
 .home-section h1 {
   font-family: 'Playfair Display', serif;
   font-size: 60px;
