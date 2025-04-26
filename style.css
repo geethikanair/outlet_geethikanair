@@ -57,14 +57,17 @@ body {
 }
 
 /* Home Section */
+/* Home Section */
 .home-section {
-  background-image: url('https://ih1.redbubble.net/image.665502912.2165/pp,504x498-pad,600x600,f8f8f8.u8.jpg');
+  background-image: url('https://i.pinimg.com/474x/03/d4/bb/03d4bb57e5d102221959b6f5c6381525.jpg');
   background-color: #D58A94; /* Fallback color */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: keeps background still while scrolling */
   color: white;
-  min-height: 80vh;
+  width: 100%;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,6 +79,7 @@ body {
   font-size: 60px;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4); /* Soft shadow for readability */
 }
+
 
 /* About Section */
 .about {
