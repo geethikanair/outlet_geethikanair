@@ -92,7 +92,6 @@ body {
   z-index: 2;
 }
 
-
 .home-section h1 {
   font-family: 'Playfair Display', serif;
   font-size: 60px;
@@ -148,6 +147,7 @@ body {
   background-color: white;
   color: #D58A94;
 }
+
 /* Storage Sidebar */
 .storage {
   width: 250px;
@@ -191,8 +191,6 @@ body {
   color: #D58A94;
   border: 2px solid #D58A94;
 }
-
-/* Add below your current CSS */
 
 /* Search bar toggle */
 .search-container {
@@ -273,17 +271,29 @@ body {
   margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
-  .profile-container {
-    flex-direction: column;
-  }
-
-  .connect-columns {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .bio-text {
-    text-align: center;
-  }
+/* Hover Effects for About Section */
+.about:hover {
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
 }
+
+/* Hover Effects for Blog Post Cards */
+.blog-post:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Add transitions to navigation */
+.nav-links li a {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+  background-color: #C16D72; /* Darker Dusty Rose */
+}
+
