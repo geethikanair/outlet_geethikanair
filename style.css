@@ -148,3 +148,46 @@ body {
   background-color: white;
   color: #D58A94;
 }
+/* Storage Sidebar */
+.storage {
+  width: 250px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Lato', sans-serif;
+}
+
+/* Blog Post Card */
+.blog-post {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Lato', sans-serif;
+}
+
+/* Buttons */
+.blog-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.blog-buttons button {
+  background-color: #D58A94;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.blog-buttons button:hover {
+  background-color: white;
+  color: #D58A94;
+  border: 2px solid #D58A94;
+}
