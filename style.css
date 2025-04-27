@@ -27,6 +27,11 @@ body {
   font-weight: bold;
 }
 
+.search-bar {
+  order: 2; /* Make search bar appear after the logo */
+  margin-left: auto; /* Push the search bar to the right */
+}
+
 .search-bar input {
   padding: 8px 12px;
   border: none;
@@ -35,6 +40,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+/* Navbar Links */
 .nav-links {
   list-style: none;
   display: flex;
@@ -92,7 +98,6 @@ body {
   z-index: 2;
 }
 
-
 .home-section h1 {
   font-family: 'Playfair Display', serif;
   font-size: 60px;
@@ -148,6 +153,7 @@ body {
   background-color: white;
   color: #D58A94;
 }
+
 /* Storage Sidebar */
 .storage {
   width: 250px;
@@ -287,4 +293,3 @@ body {
     text-align: center;
   }
 }
-
