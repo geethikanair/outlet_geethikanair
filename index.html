@@ -4,18 +4,12 @@
   <meta charset="UTF-8">
   <title>Geethika's Outlet</title>
   <link rel="stylesheet" href="style.css">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&family=Bitter&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- For search icon -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Navigation Bar -->
   <nav class="navbar">
-    <div class="logo">
-      <img src="your-logo-placeholder.png" alt="Logo" class="logo-img">
-    </div>
+    <div class="logo">Logo Goes Here</div>
     <ul class="nav-links">
       <li><a href="#">Home</a></li>
       <li><a href="#">About Me</a></li>
@@ -24,78 +18,23 @@
       <li><a href="#">Upcoming Projects</a></li>
       <li><a href="#">Products</a></li>
     </ul>
-    <div class="search-icon" onclick="toggleSearchPopup()">
-      <i class="fas fa-search"></i>
-    </div>
   </nav>
 
-  <!-- Search Popup -->
-  <div id="searchPopup" class="search-popup">
-    <input type="text" id="searchInput" placeholder="Search the site...">
-    <button onclick="performSearch()">Search</button>
-    <button onclick="toggleSearchPopup()">Close</button>
-  </div>
-
-  <!-- Home Section -->
   <header class="home-section">
-    <div class="background-bubble">Geethika's Outlet</div>
-    <div class="home-content">
-      <div class="profile-image">
-        <img src="your-profile-placeholder.png" alt="Profile Photo">
-      </div>
-      <div class="welcome-text">
-        <h1>Welcome to my website!</h1>
-        <p>
-          Hi, I’m Geethika, a high school sophomore (Class of 2027) with a strong interest in computer engineering, computer graphics design, and helping out the community. I’ve taken AP Computer Science Principles and computer graphics 1 and 2, where I discovered a love for character design, visual storytelling, and user-focused digital creation. I am currently the Social Media Officer at EmpowerHer Education, Group Lead for Website Development at Hope Avenue, Secretary and Intern at GIFT, and Website Developer at Youth4Youth.
-          <br><br>
-          In addition to my work in tech and advocacy, I’m actively involved in my school and local library communities as Vice President of the MV Book Club, a member of the Library Advisory Committee, and a Teen Advisory Board Member for the Contra Costa County Library.
-          <br><br>
-          Outside of academics and extracurriculars, I enjoy playing tennis and bharatanatyam. But mainly, I’m passionate about learning, collaborating across diverse teams, and creating inclusive, purpose-driven solutions.
-        </p>
-      </div>
-    </div>
+    <h1>Welcome to my website!</h1>
   </header>
 
-  <!-- Featured Projects Section -->
   <section class="featured-projects">
-    <h2>Featured Projects</h2>
-    <div class="project-grid">
-      <div class="project-card">Project 1</div>
-      <div class="project-card">Project 2</div>
-      <div class="project-card">Project 3</div>
-      <div class="project-card">Project 4</div>
-      <div class="project-card">Project 5</div>
+    <h2>Connect With Me</h2>
+    <div class="social-links">
+      <a href="https://github.com/geethikanair" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/geethika-v-7103782b6/" target="_blank">LinkedIn</a>
     </div>
   </section>
 
-  <!-- Footer Social Links -->
-  <footer class="socials">
-    <h2>Connect with me!</h2>
-    <div class="connect-section">
-      <div class="contact-info">
-        <p>Email: geethikavnair@gmail.com</p>
-        <p>Instagram: yourfav_geethika</p>
-        <p>TikTok: geethika_tt11</p>
-        <p>Snapchat: geethika_sc11</p>
-      </div>
-      <div class="social-links">
-        <a href="https://github.com/geethikanair" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/geethika-v-7103782b6/" target="_blank">LinkedIn</a>
-      </div>
-    </div>
+  <footer>
+    <p>&copy; 2025 Geethika's Outlet. All rights reserved.</p>
   </footer>
-
-  <script>
-    function toggleSearchPopup() {
-      document.getElementById("searchPopup").classList.toggle("active");
-    }
-
-    function performSearch() {
-      const keyword = document.getElementById("searchInput").value;
-      alert("Searching for: " + keyword);
-      // You can make this search the page contents or redirect
-    }
-  </script>
 
 </body>
 </html>
