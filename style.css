@@ -27,14 +27,6 @@ body {
   font-weight: bold;
 }
 
-.search-bar input {
-  padding: 8px 12px;
-  border: none;
-  border-radius: 20px;
-  outline: none;
-  font-family: 'Lato', sans-serif;
-}
-
 .nav-links {
   list-style: none;
   display: flex;
